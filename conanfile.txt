@@ -1,0 +1,13 @@
+[requires]
+gtest/1.11.0
+tl-expected/1.0.0
+sfml/2.5.1
+
+[options]
+sfml:audio=True
+sfml:graphics=True
+sfml:window=True
+
+[generators]
+cmake
+
