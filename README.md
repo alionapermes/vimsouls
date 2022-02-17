@@ -6,11 +6,11 @@ Learn Vim by playing
 
 Before building make sure that you have installed [conan](https://conan.io/)
 
-Any OS:
-`pip install conan`
-
-Arch/Manjaro Linux:
+Arch/Manjaro Linux:  
 `yay -S conan`
+
+Any other OS:  
+`pip install conan`
 
 Base needed actions to build the game
 
@@ -20,5 +20,6 @@ conan install .. --build=missing
 cmake ..
 ```
 
-Optional cmake flags: `-DTESTS`, `-DDEBUG`, `-DCMAKE_EXPORT_COMPILE_COMMANDS`
+Available cmake options:
+`-DTESTS`, `-DDEBUG`, `-DCMAKE_EXPORT_COMPILE_COMMANDS`
 
